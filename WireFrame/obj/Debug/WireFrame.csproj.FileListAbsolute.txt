@@ -1,0 +1,6 @@
+E:\GameinWinform\Game1\WireFrame\bin\Debug\WireFrame.dll
+E:\GameinWinform\Game1\WireFrame\bin\Debug\WireFrame.pdb
+E:\GameinWinform\Game1\WireFrame\obj\Debug\WireFrame.csproj.AssemblyReference.cache
+E:\GameinWinform\Game1\WireFrame\obj\Debug\WireFrame.csproj.CoreCompileInputs.cache
+E:\GameinWinform\Game1\WireFrame\obj\Debug\WireFrame.dll
+E:\GameinWinform\Game1\WireFrame\obj\Debug\WireFrame.pdb

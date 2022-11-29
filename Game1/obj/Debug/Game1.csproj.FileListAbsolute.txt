@@ -1,0 +1,35 @@
+E:\semester 2\GameinWinform\Game1\Game1\bin\Debug\Game1.exe.config
+E:\semester 2\GameinWinform\Game1\Game1\bin\Debug\Game1.exe
+E:\semester 2\GameinWinform\Game1\Game1\bin\Debug\Game1.pdb
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.csproj.AssemblyReference.cache
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.Form1.resources
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.Properties.Resources.resources
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.csproj.GenerateResource.cache
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.csproj.CoreCompileInputs.cache
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.exe
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.pdb
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.Mission2Form.resources
+E:\semester 2\GameinWinform\Game1\Game1\bin\Debug\EZInput.dll
+E:\semester 2\GameinWinform\Game1\Game1\bin\Debug\EZInput.xml
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.csproj.CopyComplete
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.Flappy_Bird_Game.resources
+E:\semester 2\GameinWinform\Game1\Game1\obj\Debug\Game1.EndGameForm.resources
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.csproj.AssemblyReference.cache
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.EndGameForm.resources
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.Form1.resources
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.Flappy_Bird_Game.resources
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.Mission2Form.resources
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.Properties.Resources.resources
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.csproj.GenerateResource.cache
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.csproj.CoreCompileInputs.cache
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.exe
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.pdb
+E:\GameinWinform\Game1\Game1\bin\Debug\Game1.exe.config
+E:\GameinWinform\Game1\Game1\bin\Debug\Game1.exe
+E:\GameinWinform\Game1\Game1\bin\Debug\Game1.pdb
+E:\GameinWinform\Game1\Game1\bin\Debug\EZInput.dll
+E:\GameinWinform\Game1\Game1\bin\Debug\WireFrame.dll
+E:\GameinWinform\Game1\Game1\bin\Debug\WireFrame.pdb
+E:\GameinWinform\Game1\Game1\bin\Debug\EZInput.xml
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.csproj.CopyComplete
+E:\GameinWinform\Game1\Game1\obj\Debug\Game1.Level2.resources

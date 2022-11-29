@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C674FD2A-94DC-4F53-8C6E-307FAC058C36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Game1</RootNamespace>
+    <AssemblyName>Game1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EZInput, Version=1.3.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EZInput.1.3.2\lib\netstandard2.0\EZInput.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EndGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndGameForm.Designer.cs">
+      <DependentUpon>EndGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level2.Designer.cs">
+      <DependentUpon>Level2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mission2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mission2.Designer.cs">
+      <DependentUpon>Mission2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EndGameForm.resx">
+      <DependentUpon>EndGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level2.resx">
+      <DependentUpon>Level2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mission2.resx">
+      <DependentUpon>Mission2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb-1920-572107.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blockLong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foliageTree_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_353847951_JS90PIj6XChsLI9hBLEjptLbjRTVRKpb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character_robot_idle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pbPlayer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pbPlayer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character_robot_idle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pbplayer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pipedown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngaaa.com-1318990.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\narwhal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\narwhal %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laserRed07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laserBlue05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laserBlue03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cactus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spikes_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroom_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin_gold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wingMan3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wingMan2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wingMan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wingMan4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wingMan5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flyMan_fly1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flyMan_jump2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laserRed07 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wing %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wingMan1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wingMan2 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wingMan4 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wingMan5 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laserBlue03 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaserBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tile_0000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tile_0006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PipeFire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flyMan_still_fly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flyMan_still_stand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\narwhal %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tank_explosion3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qng23Q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qng23Q %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WireFrame\WireFrame.csproj">
+      <Project>{e3019de8-f14f-4684-8c6c-ae10fd317823}</Project>
+      <Name>WireFrame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bird1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piperesize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bird1resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PipeResized.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PipeResized1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PipeResized2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PipeResized3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PipeTop1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PipeTop2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolt_gold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buildings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FluffyBird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowbird-midflap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowbird-upflap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowbird-downflap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FlappyDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FlappyBirdDown2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FlappyBirdMid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FlappyBirdUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

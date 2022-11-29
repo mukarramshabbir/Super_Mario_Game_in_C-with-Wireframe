@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E3019DE8-F14F-4684-8C6C-AE10FD317823}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WireFrame</RootNamespace>
+    <AssemblyName>WireFrame</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collision\BoundaryCollision.cs" />
+    <Compile Include="Collision\CoinCollision.cs" />
+    <Compile Include="Collision\CollisionClass.cs" />
+    <Compile Include="Collision\EnemyCollision.cs" />
+    <Compile Include="Collision\FireCollision.cs" />
+    <Compile Include="Collision\GroundCollision.cs" />
+    <Compile Include="Collision\HeartCollision.cs" />
+    <Compile Include="Collision\ICollisionAction.cs" />
+    <Compile Include="Collision\PlayerCollision.cs" />
+    <Compile Include="Collision\PlayerFireCollision.cs" />
+    <Compile Include="Collision\PowerUpsCollision.cs" />
+    <Compile Include="Collision\WallCollision.cs" />
+    <Compile Include="Core\Game.cs" />
+    <Compile Include="Core\GameObject.cs" />
+    <Compile Include="Core\IGame.cs" />
+    <Compile Include="Enums\ObjectTypes.cs" />
+    <Compile Include="Firing\FireClass.cs" />
+    <Compile Include="Firing\HorizontalFire.cs" />
+    <Compile Include="Firing\IFire.cs" />
+    <Compile Include="Movement\Diagonal.cs" />
+    <Compile Include="Movement\Horizontal.cs" />
+    <Compile Include="Movement\IMovement.cs" />
+    <Compile Include="Movement\KeyBoardMovement.cs" />
+    <Compile Include="Movement\Vertical.cs" />
+    <Compile Include="Movement\ZigZag.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
